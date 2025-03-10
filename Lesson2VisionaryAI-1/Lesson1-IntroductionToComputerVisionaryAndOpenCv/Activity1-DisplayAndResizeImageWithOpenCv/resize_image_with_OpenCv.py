@@ -1,7 +1,7 @@
 import cv2
 
 #Load the image
-image=cv2.imread('dog.jpg')
+image=cv2.imread('../images/dog.jpg')
 
 #Resize the window to a specified size without resizing the image
 cv2.namedWindow('LoadedImage', cv2.WINDOW_NORMAL) #Create a resizable window
